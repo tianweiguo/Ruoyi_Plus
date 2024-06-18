@@ -1,0 +1,10 @@
+# netty配置
+netty:
+  tcp:
+    port: 18008
+  thread:
+    bosscount: 2
+    workercount: 2
+  so:
+    keepalive: true
+    backlog: 1024
